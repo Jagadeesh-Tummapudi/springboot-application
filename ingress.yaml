@@ -5,9 +5,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
   rules:
-  - http:
+  - host: http://a80bb532039ae44f5a2ebe6feb1e6afa-1610102538.us-east-1.elb.amazonaws.com/
+    http:
       paths:
       - path: /
         pathType: Prefix
