@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
  
     <groupId>com.tcs.angularjs</groupId>
-    <artifactId>NodeJs</artifactId>
+    <artifactId>springbootApp</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>MyAwesomeApp</name>
@@ -48,7 +48,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-	<finalName>NodeJs</finalName>
+	<finalName>springbootApp</finalName>
     </build>
  
 </project>
