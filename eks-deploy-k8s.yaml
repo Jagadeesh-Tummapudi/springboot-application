@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: $DOCKER_REGISTRY/$DOCKER_IMAGE_NAME:$Tagname
+        image: tummapudi1999/my-springboot-app:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
