@@ -1,4 +1,4 @@
 FROM lolhens/baseimage-openjre
 LABEL Jagadeesh
-ADD target/NodeJs.jar NodeJs.jar
-ENTRYPOINT ["java", "-jar", "NodeJs.jar"]
+ADD target/springbootApp.jar springbootApp.jar
+ENTRYPOINT ["java", "-jar", "springbootApp.jar"]
